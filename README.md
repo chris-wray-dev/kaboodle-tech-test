@@ -2,7 +2,9 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+Clone this project and run npm install
+
+Run dev...
 
 ```bash
 npm run dev
@@ -16,21 +18,24 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Comments on the project
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### About the project
 
-## Learn More
+This project was delivered using Next and TypeScript with Tailwind as this is what I have been using most recently
 
-To learn more about Next.js, take a look at the following resources:
+Styling is using tailwind.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+I implememted a modal to display room availability as I think this presents a cleaner search page
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Would like to haves
 
-## Deploy on Vercel
+I must admit I didn't read the full brief and didn't implement any testing! I was considering adding some post-tests but I would need a couple or 3 hours refresher and I felt this would add too much time to the project.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+I would like to have added sorting/more filters
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+I'm not entirely happy with the responsive design but have at least demonstrated a degree of responsiveness.
+
+With regard to accommodation facilities I think these could be implemented as clickable tags for extra filter ability.
+
+Could grey out any accomodation which is fully booked.
